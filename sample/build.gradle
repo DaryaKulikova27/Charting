@@ -46,6 +46,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 } */
 
+
 apply plugin: 'com.android.application'
 
 android {
@@ -68,7 +69,7 @@ android {
 }
 
 dependencies {
-    implementation "androidx.appcompat:appcompat:1.5.1"
-    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.6.0'
     implementation project(':charting_lib')
 }
